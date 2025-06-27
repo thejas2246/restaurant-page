@@ -1,5 +1,6 @@
 export function showHome() {
   const mainContainer = document.querySelector("#content");
+  mainContainer.textContent = " ";
   generateContent(mainContainer);
 }
 
