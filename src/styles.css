@@ -38,6 +38,7 @@ nav{
     position: relative;
 }
 img{
-    width: 100%;
-    object-fit:fill;
+    max-width: 100%;
+    min-height: 100%;
+    object-fit:cover;
 }
