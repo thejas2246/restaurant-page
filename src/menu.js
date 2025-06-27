@@ -50,6 +50,7 @@ export function showMenu() {
   const mainContainer = document.querySelector("#content");
   mainContainer.textContent = " ";
   generateMenu(mainContainer);
+  buttonTextDecoration();
 }
 
 function generateMenu(mainContainer) {
@@ -85,4 +86,14 @@ function generateMenu(mainContainer) {
     price.textContent = recipe.price;
     descriptionContainer.appendChild(price);
   }
+}
+
+function buttonTextDecoration() {
+  const homeButton = document.querySelector(".home-buttons");
+  const menuButton = document.querySelector(".menu-buttons");
+  const aboutButton = document.querySelector(".about-buttons");
+
+  homeButton.style.textDecoration = "none";
+  menuButton.style.textDecoration = "underline";
+  aboutButton.style.textDecoration = "none";
 }

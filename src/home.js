@@ -2,6 +2,7 @@ export function showHome() {
   const mainContainer = document.querySelector("#content");
   mainContainer.textContent = " ";
   generateContent(mainContainer);
+  buttonTextDecoration();
 }
 
 function generateContent(mainContainer) {
@@ -33,4 +34,15 @@ function generateContent(mainContainer) {
   subContainer.appendChild(visitMenuButton);
 
   mainContainer.appendChild(subContainer);
+}
+
+function buttonTextDecoration() {
+  const homeButton = document.querySelector(".home-buttons");
+  const menuButton = document.querySelector(".menu-buttons");
+  const aboutButton = document.querySelector(".about-buttons");
+
+  console.log(homeButton, menuButton, aboutButton);
+  homeButton.style.textDecoration = "underline";
+  menuButton.style.textDecoration = "none";
+  aboutButton.style.textDecoration = "none";
 }

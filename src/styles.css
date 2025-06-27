@@ -17,7 +17,7 @@ header{
     background-color:var(--white);
     display: flex;
     align-items: center;
-    height: 50px;
+    min-height: 50px;
     justify-content: center;
 }
 nav{
@@ -35,13 +35,13 @@ nav{
     color: var(--blue);
 }
 #content{
-    flex: 1;
+    flex: auto;
     background-color: var(--grey);
     display: flex;
     justify-content: center;
-    overflow: auto;
 
 }
+
 .sub-container{
     margin-top: 100px;
     text-align: center;
