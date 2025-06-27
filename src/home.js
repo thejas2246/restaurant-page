@@ -16,6 +16,10 @@ function generateContent(mainContainer) {
   const homePagePara2 = document.createElement("p");
   homePagePara2.setAttribute("class", "home-page-para-2 para");
 
+  const visitMenuButton = document.createElement("button");
+  visitMenuButton.setAttribute("class", "visit-menu-button");
+  visitMenuButton.textContent = "View Our Menu";
+
   homePageHeading.textContent = "Welcome to TasteHub Restaurant";
   homePagePara1.textContent =
     "Discover a world of exquisite flavors and memorable dining.";
@@ -25,6 +29,7 @@ function generateContent(mainContainer) {
   subContainer.appendChild(homePageHeading);
   subContainer.appendChild(homePagePara1);
   subContainer.appendChild(homePagePara2);
+  subContainer.appendChild(visitMenuButton);
 
   mainContainer.appendChild(subContainer);
 }
