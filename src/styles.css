@@ -34,4 +34,10 @@ nav{
 #content{
     background-color: green;
     flex: 1;
+    overflow: hidden;
+    position: relative;
+}
+img{
+    width: 100%;
+    object-fit:fill;
 }
