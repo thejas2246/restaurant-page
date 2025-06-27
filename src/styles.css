@@ -26,6 +26,7 @@ nav{
     background-color: var(--white);
     border: none;
     font-size: 0.9rem;
+    padding: 10px;
 }
 .nav-buttons:hover{
     color: blue;
