@@ -1,0 +1,36 @@
+:root{
+    --white:white;
+    --grey:grey;
+}
+
+body{
+    background-color: gray;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color:var(--white);
+    display: flex;
+    align-items: center;
+    flex-basis: 50px;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    gap: 10px;
+}
+.nav-buttons{
+    background-color: var(--white);
+    border: none;
+    font-size: 0.9rem;
+}
+.nav-buttons:hover{
+    color: blue;
+}
+#content{
+    background-color: green;
+    flex: 1;
+}
