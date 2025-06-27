@@ -8,13 +8,13 @@ function generateContent(mainContainer) {
   subContainer.setAttribute("class", "sub-container");
 
   const homePageHeading = document.createElement("h1");
-  homePageHeading.setAttribute("class", "home-page-heading hi");
+  homePageHeading.setAttribute("class", "home-page-heading");
 
   const homePagePara1 = document.createElement("p");
-  homePagePara1.setAttribute("class", "home-page-para-1");
+  homePagePara1.setAttribute("class", "home-page-para-1 para");
 
   const homePagePara2 = document.createElement("p");
-  homePagePara2.setAttribute("class", "home-page-para-2");
+  homePagePara2.setAttribute("class", "home-page-para-2 para");
 
   homePageHeading.textContent = "Welcome to TasteHub Restaurant";
   homePagePara1.textContent =
