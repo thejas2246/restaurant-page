@@ -39,6 +39,7 @@ nav{
     background-color: var(--grey);
     display: flex;
     justify-content: center;
+    overflow: auto;
 
 }
 .sub-container{
