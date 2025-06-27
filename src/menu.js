@@ -11,52 +11,38 @@ const recipes = [
   },
   {
     image: foodImage,
-    heading: "Classic Margherita Pizza",
+    heading: "Spicy Chicken Tacos",
     description:
-      "Hand-stretched dough, fresh mozzarella, basil, and our signature tomato sauce, baked to perfection.",
-    price: "$18.50",
+      "Crispy corn tortillas filled with tender grilled chicken, fresh pico de gallo, and a kick of chipotle crema.",
+    price: "$15.00",
   },
   {
     image: foodImage,
-    heading: "Classic Margherita Pizza",
+    heading: " Lemon Herb Salmon",
     description:
-      "Hand-stretched dough, fresh mozzarella, basil, and our signature tomato sauce, baked to perfection.",
-    price: "$18.50",
+      "Pan-seared Atlantic salmon with a delicate lemon-herb butter sauce, served with roasted asparagus and cherry tomatoes.",
+    price: "$24.75",
   },
   {
     image: foodImage,
-    heading: "Classic Margherita Pizza",
+    heading: "Decadent Chocolate Lava Cake",
     description:
-      "Hand-stretched dough, fresh mozzarella, basil, and our signature tomato sauce, baked to perfection.",
-    price: "$18.50",
+      "Warm, gooey chocolate cake with a molten center, topped with a scoop of creamy vanilla bean ice cream.",
+    price: "$9.00",
   },
   {
     image: foodImage,
-    heading: "Classic Margherita Pizza",
+    heading: "Signature TasteHub Burger",
     description:
-      "Hand-stretched dough, fresh mozzarella, basil, and our signature tomato sauce, baked to perfection.",
-    price: "$18.50",
+      "Our juicy gourmet beef patty, aged cheddar, caramelized onions, and house aioli on a toasted brioche bun.",
+    price: "$17.25",
   },
   {
     image: foodImage,
-    heading: "Classic Margherita Pizza",
+    heading: "Vegan Buddha Bowl",
     description:
-      "Hand-stretched dough, fresh mozzarella, basil, and our signature tomato sauce, baked to perfection.",
-    price: "$18.50",
-  },
-  {
-    image: foodImage,
-    heading: "Classic Margherita Pizza",
-    description:
-      "Hand-stretched dough, fresh mozzarella, basil, and our signature tomato sauce, baked to perfection.",
-    price: "$18.50",
-  },
-  {
-    image: foodImage,
-    heading: "Classic Margherita Pizza",
-    description:
-      "Hand-stretched dough, fresh mozzarella, basil, and our signature tomato sauce, baked to perfection.",
-    price: "$18.50",
+      "A vibrant bowl with fluffy quinoa, roasted sweet potato, creamy avocado, crispy chickpeas, and a tangy tahini dressing.",
+    price: "$14.00",
   },
 ];
 
