@@ -32,13 +32,12 @@ nav{
     color: blue;
 }
 #content{
-    background-color: green;
     flex: 1;
     overflow: hidden;
     position: relative;
 }
-img{
-    max-width: 100%;
-    min-height: 100%;
-    object-fit:cover;
+.sub-container{
+
+     position: absolute;
+    z-index: 1;
 }
