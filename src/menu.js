@@ -84,10 +84,6 @@ function generateMenu(mainContainer) {
     const description = document.createElement("p");
     description.textContent = recipe.description;
     descriptionContainer.appendChild(description);
-
-    const price = document.createElement("p");
-    price.textContent = recipe.price;
-    descriptionContainer.appendChild(price);
   }
 }
 
