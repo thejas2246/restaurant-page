@@ -54,6 +54,9 @@ export function showMenu() {
 }
 
 function generateMenu(mainContainer) {
+  const menuHeading = document.createElement("h2");
+  menuHeading.textContent = "Our Featured Dishes";
+  mainContainer.appendChild(menuHeading);
   const menuContentContainer = document.createElement("div");
   menuContentContainer.setAttribute("class", "menu-content-container");
   mainContainer.appendChild(menuContentContainer);

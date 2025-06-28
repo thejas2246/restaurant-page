@@ -11,6 +11,7 @@ body{
     display: flex;
     flex-direction: column;
     line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -38,7 +39,8 @@ nav{
     flex: auto;
     background-color: var(--grey);
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
 }
 
@@ -101,4 +103,8 @@ img{
 .menu-image{
     height: 200px;
     overflow: hidden;
+}
+
+h2{
+    font-size: 2rem;
 }
