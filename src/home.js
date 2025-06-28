@@ -1,3 +1,4 @@
+import { showMenu } from "./menu";
 export function showHome() {
   const mainContainer = document.querySelector("#content");
   mainContainer.textContent = " ";
@@ -32,7 +33,7 @@ function generateContent(mainContainer) {
   subContainer.appendChild(homePagePara1);
   subContainer.appendChild(homePagePara2);
   subContainer.appendChild(visitMenuButton);
-
+  visitMenuButton.addEventListener("click", showMenu);
   mainContainer.appendChild(subContainer);
 }
 
