@@ -42,7 +42,6 @@ function buttonTextDecoration() {
   const menuButton = document.querySelector(".menu-buttons");
   const aboutButton = document.querySelector(".about-buttons");
 
-  console.log(homeButton, menuButton, aboutButton);
   homeButton.style.textDecoration = "underline";
   menuButton.style.textDecoration = "none";
   aboutButton.style.textDecoration = "none";
